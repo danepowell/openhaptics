@@ -35,7 +35,7 @@ Description:
 #if defined(linux)
 #  define HDAPI
 #  define HDAPIENTRY  __attribute__((stdcall))
-#  define HDCALLBACK  __attribute__((stdcall))
+#  define HDCALLBACK
 #endif /* linux */
 
 #if defined(__APPLE__)
